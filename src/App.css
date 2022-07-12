@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  color: rgb(151, 126, 180);
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: rgb(238, 232, 252);
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font: inherit;
+}
+
+.header {
+  background: linear-gradient(to bottom, rgb(28 11 66) 0%, rgb(55, 3, 104) 100%);
+  box-shadow: 1px 0 5px rgb(80, 80, 80);
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 20px 0 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.container-planets img {
+  width: 100%;
+}
+
+.container p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.container-planets p {
+  padding: 10px;
+}
+
+.container-missions {
+  background-color: rgb(13, 0, 48);
+}
+
+.container-missions p {
+  color: rgb(13, 0, 48);
+}
+
+.card {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.planet-card {
+  background-image: url('./images/bkg1.jpg');
+  background-size: cover;
+  box-shadow: 0 0 5px rgb(168, 168, 168);
+  width: 300px;
+}
+
+.planet-card:hover {
+  box-shadow: 0 0 10px dimgray;
+}
+
+.mission-card {
+  background-color: rgb(230, 230, 230);
+  border: 2px solid rgb(184, 162, 245);
+  min-width: 200px;
+  padding: 10px 5px;
+}
+
+.mission-card:hover {
+  border: 2px solid rgb(117, 67, 255);
+}
